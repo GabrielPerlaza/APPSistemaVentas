@@ -6,18 +6,25 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { LoginComponent } from './Componentes/login/login.component';
 import { LayoutComponent } from './Componentes/layout/layout.component';
 import { SharedModule } from './Reutilizable/shared/shared.module';
+import { MatSnackBarModule } from '@angular/material/snack-bar';
+import { ModalUsuarioComponent } from './Componentes/layout/Modals/modal-usuario/modal-usuario.component';
+import { ModalProductoComponent } from './Componentes/layout/Modals/modal-producto/modal-producto.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     LoginComponent,
-    LayoutComponent
+    LayoutComponent,
+    ModalUsuarioComponent, 
+    ModalProductoComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     BrowserAnimationsModule,
-    SharedModule
+    SharedModule,
+    MatSnackBarModule
   ],
   providers: [],
   bootstrap: [AppComponent]
