@@ -2,14 +2,14 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/sistemade-ventas-front/**/*",
+      "src": "dist/app-sistema-ventas/**/*",
       "use": "@vercel/static"
     }
   ],
   "routes": [
     {
       "src": "/(.*)",
-      "dest": "/dist/sistemade-ventas-front/$1"
+      "dest": "/dist/app-sistema-ventas/index.html"
     }
   ]
 }
