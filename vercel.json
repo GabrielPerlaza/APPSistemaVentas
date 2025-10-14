@@ -2,14 +2,15 @@
   "version": 2,
   "builds": [
     {
-      "src": "dist/app-sistema-ventas/**/*",
-      "use": "@vercel/static"
+      "src": "angular.json",
+      "use": "@vercel/static-build",
+      "config": { "distDir": "dist/app-sistema-ventas" }
     }
   ],
-  "routes": [
+  "rewrites": [
     {
-      "src": "/(.*)",
-      "dest": "/dist/app-sistema-ventas/index.html"
+      "source": "/(.*)",
+      "destination": "/index.html"
     }
   ]
 }
