@@ -3,9 +3,9 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 import { ModalUsuarioComponent } from '../../Modals/modal-usuario/modal-usuario.component';
-import { UsuarioService } from 'src/app/Services/usuario.service';
-import { Usuario } from 'src/app/Interfaces/usuario';
-import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
+import { UsuarioService } from '../../../../Services//usuario.service';
+import { Usuario } from '../../../../Interfaces/usuario';
+import { UtilidadService } from '../../../../Reutilizable/utilidad.service';
 import Swal from 'sweetalert2';
 
 

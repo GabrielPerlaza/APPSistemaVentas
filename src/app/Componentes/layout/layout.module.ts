@@ -7,7 +7,7 @@ import { ProductoComponent } from './Pages/producto/producto.component';
 import { VentaComponent } from './Pages/venta/venta.component';
 import { HistorialVentaComponent } from './Pages/historial-venta/historial-venta.component';
 import { ReporteComponent } from './Pages/reporte/reporte.component';
-import { SharedModule } from 'src/app/Reutilizable/shared/shared.module';
+import { SharedModule } from '../../Reutilizable/shared/shared.module';
 import { ModalDetalleVentaComponent } from './Modals/modal-detalle-venta/modal-detalle-venta.component';
 
 

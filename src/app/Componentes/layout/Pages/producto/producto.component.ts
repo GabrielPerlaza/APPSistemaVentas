@@ -4,9 +4,9 @@ import { MatPaginator } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 
 import { ModalProductoComponent } from '../../Modals/modal-producto/modal-producto.component';
-import { ProductoService } from 'src/app/Services/producto.service';
-import { Producto } from 'src/app/Interfaces/producto';
-import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
+import { ProductoService } from '../../../../Services/producto.service';
+import { Producto } from '../../../../Interfaces/producto';
+import { UtilidadService } from '../../../../Reutilizable/utilidad.service';
 
 import Swal from 'sweetalert2';
 

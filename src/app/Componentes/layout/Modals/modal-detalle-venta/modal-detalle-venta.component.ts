@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject, inject } from '@angular/core';
 import { MAT_DIALOG_DATA } from '@angular/material/dialog';
-import { Venta } from 'src/app/Interfaces/venta';
-import {DetalleVenta} from 'src/app/Interfaces/detalle-venta';
+import { Venta } from '../../../../Interfaces/venta';
+import {DetalleVenta} from '../../../../Interfaces/detalle-venta';
 
 @Component({
   selector: 'app-modal-detalle-venta',

@@ -11,9 +11,9 @@ import * as moment from 'moment';
 import { ModalDetalleVentaComponent } from '../../Modals/modal-detalle-venta/modal-detalle-venta.component';
 import { ModalUsuarioComponent } from '../../Modals/modal-usuario/modal-usuario.component';
 
-import { VentaService } from 'src/app/Services/venta.service';
-import { Venta } from 'src/app/Interfaces/venta';
-import { UtilidadService } from 'src/app/Reutilizable/utilidad.service';
+import { VentaService } from '../../../../Services/venta.service';
+import { Venta } from '../../../../Interfaces/venta';
+import { UtilidadService } from '../../../../Reutilizable/utilidad.service';
 
 
 import Swal from 'sweetalert2';
