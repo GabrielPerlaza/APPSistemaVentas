@@ -6,7 +6,7 @@ import { MatTableDataSource } from '@angular/material/table';
 import { MatPaginator } from '@angular/material/paginator';
 import { MatDialog } from '@angular/material/dialog';
 import { MAT_DATE_FORMATS } from '@angular/material/core';
-import * as moment from 'moment';
+import  moment from 'moment';
 
 import { ModalDetalleVentaComponent } from '../../Modals/modal-detalle-venta/modal-detalle-venta.component';
 import { ModalUsuarioComponent } from '../../Modals/modal-usuario/modal-usuario.component';
