@@ -1,4 +1,4 @@
 export const environment = {
-    production: true,
-    endpoint:  "https://apisistemaventas-latest.onrender.com/api/"
+    production: false,
+    endpoint:   "http://localhost:5031/api/"
 };
