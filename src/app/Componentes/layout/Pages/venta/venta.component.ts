@@ -120,7 +120,7 @@ registrarVenta(){
 
     this._ventaService.Registrar(request).subscribe({
       next: (response) => {
-        if(response.status){
+        if(response?.status && response.value){
           this.totalPagar = 0.00;
           this.listaProductosParaVenta = [];
           this.datosDetalleVenta = new MatTableDataSource(this.listaProductosParaVenta);
@@ -137,7 +137,13 @@ registrarVenta(){
         complete: () => {
           this.bloquearBotonRegistrar = false;
         }, 
-        error: (e) => {}
+        error: (e) => {
+      console.error('Error al registrar venta', e);
+      this._utilidadService.mostrarAlerta(
+        'Error de comunicación con el servidor',
+        'Error'
+      );
+    }
       });
       console.log("Request a enviar:", request);
     }
